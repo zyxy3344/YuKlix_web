@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+body{background: url(../../images/blog/footside.jpg) bottom center no-repeat; overflow: hidden; font: normal 100% Helvetica, Arial, sans-serif;}
+.clear{clear: both;}
+.hide{display: none;}
+
+.top_bg{background: url(../../images/blog/topbg.jpg) repeat-x; height: 32px;}

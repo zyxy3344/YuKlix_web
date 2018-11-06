@@ -1,0 +1,78 @@
+body{
+    background: rgb(0,21,42);
+}
+a{color: #49ed02}
+.left{
+    float: left;
+    width: 300px;
+    background-color: rgb(63,63,63);
+    position: fixed;
+}
+.m_content{
+    width: 180px;height: 1000px;
+    margin: 0 auto;
+    /*background-color: #2aabd2;*/
+}
+
+.head_portrait{
+    width: 180px; height: 114px;
+    /*background-color: white;*/
+    margin: 40px 0 0 0;
+}
+.head_portrait img{
+    width: 100px;height: 100px;
+    margin: 5px 0 0 25%;
+    border-radius: 50%;
+}
+.m_content_menu li{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.right{
+    width: 1600px; height: 1000px;
+    float: left;
+    margin-left: 300px;
+    /*background-color: red;*/
+    /*background: url("../../images/loading.gif");*/
+    background-size: 100% 100%;
+}
+.r_top{
+    width: 1600px; height: 400px;
+    float: left;
+    background: url("../../images/p_zone/2.jpg") no-repeat;
+    background-size: 100%;
+    border: black solid 1px;
+}
+
+.scroll {
+    float: left;
+    background-color: white;
+}
+
+.scroll div{
+    width: 175px;
+    background-color: rgb(49, 49, 49);
+    margin-left: 60px;
+    border: #2aabd2 solid 1px;
+}
+
+.r_content{
+    float: left;margin: 3px auto;
+    border: black solid 2px;
+}
+
+.pic{
+    width: 300px;height: 500px;
+}
+.info{
+    color: #e6330f;
+    background-color: rgb(41,41,41);
+}
+.info li{
+    margin-top:  10px;
+    word-break:break-all
+}
+

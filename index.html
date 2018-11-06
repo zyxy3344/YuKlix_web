@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="YuKalix's space,IT,yellow,个人博客,YuKalix,52ziyu">
+    <meta name="author" content="YuKalix">
+    <title>YuKalix 的私密小空间</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body onload="ps()">
+
+    <!--顶部开始-->
+    <div class="top" style="background-color: rgb(42,116,182);">
+        <p>YuKalix 的私密小空间</p>
+        <!--未登录状态-->
+        <div class="no_l_r">
+            <form action="">
+                <input type="text" placeholder="用户名...">
+                <input type="password" placeholder="密码..">
+                <input type="submit" value="登录">
+                <button type="button" onclick="register()">注册</button>
+            </form>
+        </div>
+        <div class="register hide" id="register">
+
+            <div class="register_f">
+                <form action="" method="post">
+
+                    <ul>
+                        <li>注册尚未开通，若有需要请联系管理员705301804@qq.com</li>
+                        <li> <label for="user">用户名：</label><input type="text" id="user"></li>
+                        <li> <label for="passwd">密&nbsp&nbsp&nbsp&nbsp码：</label><input type="password" id="passwd"></li>
+                        <li> <label for="email">邮&nbsp&nbsp&nbsp&nbsp箱：</label><input type="text" name="" id="email"></li>
+                        <li>
+                            <label for="captcha">验证码：</label><input type="text" id="captcha">
+                            <div class="register_f_c">
+                                <img src="images/1.png" alt="" width="150" height="50">
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div class="clear"></div>
+                    <input type="submit" value="提交" style="width: 250px; height: 30px">
+                </form>
+            </div>
+        </div>
+
+        <!--登录状态-->
+        <div class="l_r hide">
+            <p>YuKalix</p>
+            <p class="exit">退出</p>
+            <div class="l_r_img">
+                <img src="images/icon/user_icon.png" alt="" height="50" width="50">
+            </div>
+
+        </div>
+
+    </div>
+    <!--顶部结束-->
+
+    <!--换肤-->
+    <div id="ch_bg">
+        <ul>
+            <li style="background-color: #2aabd2" class="bg"></li>
+            <li style="background-color: #41eeff" class="bg"></li>
+            <li style="background-color: #f2dede" class="bg"></li>
+            <li style="background-color: black" class="bg"></li>
+            <li style="background-color: #b5fff0" class="bg"></li>
+        </ul>
+    </div>
+
+    <!--主体开始-->
+    <div class="contant">
+        <ul class="list">
+            <a href="https://www.cnblogs.com/zyxy/" target="_blank">
+            <li class="l1" style="background-color: rgb(42,116,182);">
+
+                    <img src="images/1.png" alt="" width="80" height="80">
+                    <div>
+                        <p>个人博客</p>
+                        <span>BLOG</span>
+                    </div>
+
+
+            </li>
+            </a>
+
+            <a href="templates/p_zone/index.html">
+            <li class="l1" style="background-color: rgb(233,233,233);">
+                <img src="images/icon/mm.png" alt="" width="80px" height="80px">
+
+                <div>
+                    <p>私密小窝</p>
+                    <span>MM</span>
+                </div>
+
+
+            </li>
+            </a>
+
+            <li class="l1" style="background-color: rgb(79,129,159);">
+                <img src="images/1.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>存钱猪</p>
+                    <span>CMDB</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(206,180,140);">
+                <img src="images/icon/cloud.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>私有云</p>
+                    <span>Cloud</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(22,172,125);">
+                <img src="images/icon/monitor.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>监控</p>
+                    <span>MONITOR</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(0,155,238);">
+                <img src="images/icon/bastion.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>堡垒机</p>
+                    <span>BASTION</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(248,124,56);">
+                <img src="images/icon/task.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>网络蜘蛛</p>
+                    <span>WEB SPIDER</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(144,182,61);">
+                <img src="images/icon/dns.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>代理池</p>
+                    <span>AgentPool</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(145,169,104);">
+                <img src="images/icon/resource.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>资源</p>
+                    <span>RESCOURCE</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(109,81,151);">
+                <img src="images/icon/flow.png" alt="" width="80px" height="80px">
+                <div>
+                    <p>资产</p>
+                    <span>CMDB</span>
+                </div>
+
+            </li>
+            <li class="l1" style="background-color: rgb(233,233,233);">
+                <img src="images/icon/add.png" alt="">
+                <a href="">
+                <div>
+                    <p>添加</p>
+                    <span>ADD</span>
+                </div>
+                </a>
+
+            </li>
+
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <!--主体结束-->
+
+    <!--底部开始-->
+    <footer>
+        <p style="margin: 10px auto">创建日期2018/09,努力创建中,从0开始.预计实现日期2019/10,qq+705301804</p>
+    </footer>
+    <!--底部结束-->
+
+
+
+
+
+
+<!--script start-->
+<script>
+    // function ps () {
+    //     alert('目前个人博客开启,其他的正在制作中');
+    // }
+    function register() {
+        var s = document.getElementById("register");
+        s.classList.remove("hide");
+    }
+
+</script>
+<script>
+        // 换肤
+        var ch_bg = document.getElementsByClassName('bg');
+        var ch_head = document.getElementsByClassName('top');
+        var len = ch_bg.length;
+        for (var i=0; i<len; i++){
+            ch_bg[i].onmouseover = function () {
+                var color = this.style.backgroundColor;
+                document.body.style.backgroundColor = color;
+
+                ch_head.style.backgroundColor = color;
+                console.log(color);
+            }
+        }
+
+        console.log("加入我们,欢迎大家.\n我们一起努力学习\n+qq群:428892253(密码:666)");
+    </script>
+<!--script end-->
+
+</body>
+</html>
