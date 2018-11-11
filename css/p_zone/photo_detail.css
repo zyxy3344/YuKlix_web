@@ -1,0 +1,59 @@
+
+/*这里将原始css样式进行更改*/
+/*优先级*/
+.right{
+    width: 1300px;
+    height: 1000px;
+    float: left;
+    margin-left: 300px;
+    /* background-color: red; */
+    /* background: url(../../images/loading.gif); */
+    background-size: 100% 100%;
+}
+.right_content{
+    width: 1300px;
+    background-color: rgb(41,41,41);
+    float: left;
+}
+
+.comment{
+    width: 1300px;height: 60px;
+    /*background-color: yellow;*/
+}
+/*评论框设置*/
+#tx{
+    width: 1000px; height: 50px;
+    background:transparent;
+    border:1px solid #ffffff;
+    color: red;
+    font-size: 24px;
+}
+
+.comment_content{
+    width: 1300px;
+    background-color: white;
+    float:left;
+}
+.user_comment{
+    border-right: black solid 1px; border-bottom: black solid 1px ;
+    float: left;margin-left: 15px;
+
+}
+.detail{
+    width: 200px;
+    float: left;
+}
+
+
+/*右上角工具*/
+.tools{
+    width: 300px;
+    background-color: yellow;
+    float: right;
+    color: red;
+}
+
+.tools li{
+    width: 50px;
+    float: left; margin-left: 10px;
+}
