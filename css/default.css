@@ -1,9 +1,9 @@
 *{
     margin: 0; padding: 0;
-    cursor: url('../images/cursor.ico'), auto;
+    cursor: url(../images/cursor.ico), auto;
 }
 ul{list-style: none;}
 body{background-color: #eeeeee; font: 14px/200% "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体"}
-a:hover{color: red;} a:active{color: black;}
+a:hover{color: red; cursor: pointer;} a:active{color: black;}
 .clear{clear: both;}
 .hide{display: none;}
